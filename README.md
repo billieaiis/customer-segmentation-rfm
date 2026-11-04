@@ -25,17 +25,15 @@ Dataset: Dunnhumby – The Complete Journey
 The dataset contains retail transaction records describing household purchasing behavior.
 
 Key Attributes
-
-| Kolom | Deskripsi |
+| Column | Description |
 |---|---|
-| `household_key` | Identitas unik rumah tangga |
-| `BASKET_ID` | Identitas unik transaksi atau keranjang belanja |
-| `DAY` | Indeks hari terjadinya transaksi |
-| `PRODUCT_ID` | Identitas unik produk |
-| `SALES_VALUE` | Nilai pembelian yang tercatat |
-| `QUANTITY` | Jumlah produk yang dibeli |
-| `STORE_ID` | Identitas toko |
-
+| `household_key` | Unique household identifier |
+| `BASKET_ID` | Unique transaction or basket identifier |
+| `DAY` | Sequential day index of the transaction |
+| `PRODUCT_ID` | Unique product identifier |
+| `SALES_VALUE` | Recorded purchase value |
+| `QUANTITY` | Number of units purchased |
+| `STORE_ID` | Store identifier |
 Dataset Overview
 
 Metric| Value
