@@ -37,13 +37,14 @@ Key Attributes
 
 Dataset Overview
 
-Metric| Value
-Total transaction records| 2,595,732
-Unique households| 2,500
-Unique baskets| 276,484
-Unique products| 92,339
-Unique stores| 582
-Observation period| Day 1–711
+| Metric | Value |
+|---|---:|
+| Total transaction records | 2,595,732 |
+| Unique households | 2,500 |
+| Unique baskets | 276,484 |
+| Unique products | 92,339 |
+| Unique stores | 582 |
+| Observation period | Day 1–711 |
 
 The unit of analysis in this project is the household rather than an individual customer.
 
