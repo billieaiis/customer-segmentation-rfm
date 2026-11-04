@@ -79,10 +79,11 @@ Zero-value baskets were excluded from the RFM calculation to focus on purchasing
 
 The RFM model evaluates household purchasing behavior using three metrics.
 
-Metric| Definition| Interpretation
-Recency| Reference day minus the last purchase day| Lower values indicate more recent purchases
-Frequency| Number of unique qualifying baskets| Higher values indicate more frequent transactions
-Monetary| Sum of qualifying "SALES_VALUE"| Higher values indicate greater purchase value
+| Metric | Definition | Interpretation |
+|---|---|---|
+| Recency | Reference day minus the last purchase day | Lower values indicate more recent purchases |
+| Frequency | Number of unique qualifying baskets | Higher values indicate more frequent transactions |
+| Monetary | Sum of qualifying `SALES_VALUE` | Higher values indicate greater purchase value |
 
 The reference day was set to Day 712, one day after the maximum observed transaction day (Day 711).
 
@@ -102,16 +103,17 @@ Households were classified into eight segments using rule-based RFM scoring.
 
 Segment Distribution
 
-Segment| Household Count| Percentage
-Hibernating| 551| 22.04%
-Champions| 535| 21.40%
-Need Attention| 460| 18.40%
-Potential Loyalists| 310| 12.40%
-At Risk| 268| 10.72%
-Loyal Customers| 266| 10.64%
-Big Spenders| 76| 3.04%
-Recent Low-Frequency| 34| 1.36%
-Total| 2,500| 100.00%
+| Segment | Household Count | Percentage |
+|---|---:|---:|
+| Hibernating | 551 | 22.04% |
+| Champions | 535 | 21.40% |
+| Need Attention | 460 | 18.40% |
+| Potential Loyalists | 310 | 12.40% |
+| At Risk | 268 | 10.72% |
+| Loyal Customers | 266 | 10.64% |
+| Big Spenders | 76 | 3.04% |
+| Recent Low-Frequency | 34 | 1.36% |
+| **Total** | **2,500** | **100.00%** |
 
 The segmentation rules were designed to produce mutually exclusive categories. Households that did not meet the criteria for the seven defined behavioral segments were assigned to the Need Attention category.
 
@@ -160,15 +162,16 @@ The project includes four main visualizations:
 
 Based on the RFM analysis, the following strategies are recommended:
 
-Segment| Recommended Strategy
-Champions| Exclusive rewards, VIP programs, and personalized offers
-Loyal Customers| Loyalty points and repeat-purchase incentives
-Potential Loyalists| Personalized offers and product recommendations
-At Risk| Targeted win-back campaigns
-Big Spenders| Premium bundles and cross-selling strategies
-Hibernating| Re-engagement campaigns
-Recent Low-Frequency| Purchase incentives and complementary product recommendations
-Need Attention| Further behavioral evaluation and targeted marketing
+| Segment | Recommended Strategy |
+|---|---|
+| Champions | Exclusive rewards, VIP programs, and personalized offers |
+| Loyal Customers | Loyalty points and repeat-purchase incentives |
+| Potential Loyalists | Personalized offers and product recommendations |
+| At Risk | Targeted win-back campaigns |
+| Big Spenders | Premium bundles and cross-selling strategies |
+| Hibernating | Re-engagement campaigns |
+| Recent Low-Frequency | Purchase incentives and complementary product recommendations |
+| Need Attention | Further behavioral evaluation and targeted marketing |
 
 These recommendations are proposed strategies based on observed RFM characteristics. Their effectiveness should be evaluated using campaign performance data or controlled experiments.
 
