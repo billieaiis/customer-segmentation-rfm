@@ -34,6 +34,7 @@ Key Attributes
 | `SALES_VALUE` | Recorded purchase value |
 | `QUANTITY` | Number of units purchased |
 | `STORE_ID` | Store identifier |
+
 Dataset Overview
 
 Metric| Value
