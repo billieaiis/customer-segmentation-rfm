@@ -151,10 +151,14 @@ This suggests an opportunity to encourage more frequent purchases through target
 
 9. Data Visualizations
 The project includes four main visualizations:
-1. Customer Segment Distribution - compares the number and percentage of households across segments.
-2. RFM Segment Profile — compares median Recency, Frequency, and Monetary values for each segment.
-3. Monetary Contribution by Segment — evaluates each segment's contribution to total purchase value.
-4. RFM Score Heatmap — compares average RFM scores across customer segments.
+- Customer Segment Distribution
+  compares the number and percentage of households across segments.
+- RFM Segment Profile
+  compares median Recency, Frequency, and Monetary values for each segment.
+- Monetary Contribution by Segment
+  evaluates each segment's contribution to total purchase value.
+- RFM Score Heatmap
+  compares average RFM scores across customer segments.
 
 10. Business Recommendations
 
